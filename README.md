@@ -1,5 +1,3 @@
-# Dillinger
-
 ## Terms Used
 
 - Feature: The input(s) to our model
