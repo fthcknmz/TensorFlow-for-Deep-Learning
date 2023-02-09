@@ -1,3 +1,4 @@
+
 ## Terms Used
 
 - Feature: The input(s) to our model
@@ -16,3 +17,17 @@
 - Epoch: A full pass over the entire training dataset
 - Forward pass: The computation of output values from input
 - Backward pass (backpropagation): The calculation of internal variable adjustments according to the optimizer algorithm, starting from the output layer and working back through each layer to the input.
+>  *Training Set: The data used for training the neural network.
+>  *Test set: The data used for testing the final performance of our neural network. (to try the network on data it has never seen before)
+>  *The validation set is used again when training is complete to measure the final accuracy of the model.
+
+- CNNs: Convolutional neural network. That is, a network which has at least one convolutional layer. A typical CNN also includes other types of layers, such as pooling layers and dense layers
+- Kernel / filter: A matrix which is smaller than the input, used to transform the input into chunks
+- Convolution: the process of applying a filter (“kernel”) to an image. 
+- Downsampling: The act of reducing the size of an image
+-  Max pooling: the process of reducing the size of the image through downsampling.
+-  Stride: the number of pixels to slide the kernel (filter) across the image.
+- Padding: Adding pixels of some value, usually 0, around the input image
+- Pooling The process of reducing the size of an image through downsampling.There are several types of pooling layers. For example, average pooling converts many values into a single value by taking the average. However, maxpooling is the most common.
+
+
