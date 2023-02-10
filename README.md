@@ -29,6 +29,7 @@
 -  Stride: the number of pixels to slide the kernel (filter) across the image.
 - Padding: Adding pixels of some value, usually 0, around the input image
 - Pooling The process of reducing the size of an image through downsampling.There are several types of pooling layers. For example, average pooling converts many values into a single value by taking the average. However, maxpooling is the most common.
+- Freezing Parameters: Setting the variables of a pre-trained model to non-trainable. By freezing the parameters, we will ensure that only the variables of the last classification layer get trained, while the variables from the other layers of the pre-trained model are kept the same.
 
 # To Prevent Overfitting
 - Early Stopping: In this method, we track the loss on the validation set during the training phase and use it to determine when to stop training such that the model is accurate but not overfitting.
