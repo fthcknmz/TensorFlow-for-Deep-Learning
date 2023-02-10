@@ -30,4 +30,9 @@
 - Padding: Adding pixels of some value, usually 0, around the input image
 - Pooling The process of reducing the size of an image through downsampling.There are several types of pooling layers. For example, average pooling converts many values into a single value by taking the average. However, maxpooling is the most common.
 
+# To Prevent Overfitting
+- Early Stopping: In this method, we track the loss on the validation set during the training phase and use it to determine when to stop training such that the model is accurate but not overfitting.
+- Image Augmentation: Artificially boosting the number of images in our training set by applying random image transformations to the existing images in the training set.
+- Dropout: Removing a random selection of a fixed number of neurons in a neural network during training.
+
 
